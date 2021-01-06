@@ -1,0 +1,93 @@
+body{
+    background-image: url(../images/screenshot.png);
+    height: 8777px;
+}
+/*common styles*/
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+#quick-links{
+    height: 40px;
+    background: #ff000047;
+}
+#header{
+    height: 93px;
+    background: #0000ff54;
+}
+#banner{
+    height: 390px;
+    background: #ffff0094;
+}
+#highlights{
+    height: 367px;
+    background: #0080006e;
+}
+#about{
+    height: 815px;
+    background: #00ffff61;
+}
+#skills{
+    height: 250px;
+    background: #a52a2a6b;
+}
+#statistics{
+    height: 225px;
+    background: #b8860b70;
+}
+#clients{
+    height: 165px;
+    background: #ff8c00bf;
+}
+#service{
+    height: 982px;
+    background: #ff00ff5e;
+}
+#testimonial{
+    height: 434px;
+    background: #661a9280;
+}
+#portfolio{
+    height: 1437px;
+    background: #87ceeb80;
+}
+#team{
+    height: 667px;
+    background: #ff63478c;
+}
+#pricing{
+    height: 716px;
+    background: #ff00ff73;
+}
+#faq{
+    height: 660px;
+    background: #0000808c;
+}
+#contact{
+    height: 879px;
+    background: #a0522d85;
+}
+#newsletter{
+    height: 240px;
+    background: #9acd327d;
+}
+#footer{
+    height: 340px;
+    background: #00ff7f85;
+}
+#legals{
+    height: 77px;
+    background: #a52a2a85;
+}
+
+
+
+
+
+
+
+
+
+
+
+
