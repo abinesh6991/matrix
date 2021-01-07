@@ -4,7 +4,7 @@ body{
 }
 /*common styles*/
 .container{
-    width: 1140px;
+    width:1110px;
     margin: 0 auto;
 }
 #quick-links{
@@ -22,6 +22,19 @@ body{
 #highlights{
     height: 367px;
     background: #0080006e;
+    padding: 48px 0 0 0;
+}
+#highlights  .f-container{
+    display: flex;
+   justify-content: space-around;
+}
+#highlights .f-item{
+    flex-basis: 9%;
+    padding: 65px;
+    background-color: #ffff;
+    box-shadow: #13131294 0 0 15px;
+    border-radius: 8px;
+
 }
 #about{
     height: 815px;
@@ -35,13 +48,55 @@ body{
     height: 225px;
     background: #b8860b70;
 }
+#statistics .f-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+#statistics .f-item{
+    flex-basis: 120px;
+    background-color: #ffff;
+    box-shadow: rgb(17, 15, 15) 0 0 15px;
+    border-radius: 8px;
+    padding: 42px;
+}
 #clients{
     height: 165px;
     background: #ff8c00bf;
 }
+#clients .f-container{
+    display:flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+#clients .f-item{
+    flex-basis: 100px;
+    background-color: #ffff;
+    box-shadow: rgb(20, 16, 16) 0 0 15px;
+    border-radius: 8px;
+    padding: 16px;
+}
 #service{
-    height: 982px;
+    height: 934px;
     background: #ff00ff5e;
+}
+#service .section-title{
+    height: 218px;
+}
+
+#service .f-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+#service .f-item{
+    flex-basis: 15%;
+    padding: 100px;
+    background-color: #ffff;
+    box-shadow: rgb(36, 24, 24)  0 0 15px;
+    border-radius: 8px;
+
 }
 #testimonial{
     height: 434px;
@@ -55,13 +110,44 @@ body{
     height: 667px;
     background: #ff63478c;
 }
+#team .section-title{
+    height: 237px;
+}
+#team .f-container{
+    display: flex;
+    justify-content: space-around;
+}
+#team .f-item{
+    flex-basis: 9%;
+    padding: 50px;
+    background-color: #ffff;
+    box-shadow: rgb(22, 21, 21) 0 0 15px;
+    border-radius: 8px;
+}
 #pricing{
     height: 716px;
     background: #ff00ff73;
 }
+#pricing .section-title{
+    height: 237px;
+}
+#pricing .f-container{
+    display: flex;
+    justify-content: space-around;
+}
+#pricing .f-item{
+    background-color: #ffff;
+    box-shadow: rgb(8, 8, 8) 0 0 15px;
+    border-radius: 8px;
+    padding: 55px;
+    flex-basis: 10%;
+}
 #faq{
     height: 660px;
     background: #0000808c;
+}
+#faq .section-title{
+    height: 246px;
 }
 #contact{
     height: 879px;
@@ -73,13 +159,23 @@ body{
 }
 #footer{
     height: 340px;
-    background: #00ff7f85;
+    background: #7b858085;
+}
+#footer .f-container{
+    display: flex;
+    justify-content: space-around;
+}
+#footer .f-item{
+    background-color: #ffff;
+    box-shadow: rgb(19, 18, 18) 0 0 15px;
+    border-radius: 8px;
+    padding: 51px;
+    flex-basis: 14%;
 }
 #legals{
     height: 77px;
     background: #a52a2a85;
 }
-
 
 
 
