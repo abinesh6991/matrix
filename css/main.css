@@ -1,4 +1,5 @@
 body{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     background-image: url(../images/screenshot.png);
     height: 8777px;
 }
@@ -7,9 +8,28 @@ body{
     width:1110px;
     margin: 0 auto;
 }
+.primary-btn{
+background: #106eea;
+display: inline-block;
+padding: 13px 33px;
+border-radius: 5px;
+color: white;
+text-decoration: none;
+}
+.secondary-btn{
+color: black;
+text-decoration: none;
+}
 #quick-links{
     height: 40px;
     background: #ff000047;
+}
+#quick-links .f-container{
+    display: flex;
+    justify-content: space-between;
+}
+#quick-links .f-item{
+
 }
 #header{
     height: 93px;
@@ -17,11 +37,44 @@ body{
 }
 #banner{
     height: 390px;
-    background: #ffff0094;
+    background-image:url(../images/hero-bg.jpg);
+    background-size:cover;
+    position: relative;
+}
+#banner .white-overlay{
+    background: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#banner .f-container{
+    padding-top: 118px;
+    position: relative;
+    z-index: 3;
+}
+#banner h1{
+    font-size: 48px;
+}
+#banner h1 span{
+    color: #106eea;
+}
+#banner p{
+    padding-top: 11px;
+    font-size: 21px;
+}
+#banner .cta-wrapper{
+    padding-top: 35px;
+} 
+#banner .cta-wrapper a.primary-btn{
+    margin-right: 60px;
+}
+#banner .cta-wrapper a.secondary-button{
+
 }
 #highlights{
     height: 367px;
-    background: #0080006e;
     padding: 48px 0 0 0;
 }
 #highlights  .f-container{
@@ -40,13 +93,22 @@ body{
     height: 815px;
     background: #00ffff61;
 }
+#about .section-title{
+    text-align: center;
+    height: 186px;
+}
+#about .f-container{
+    display: flex;
+}
+#about .f-item{
+    flex-basis: 50%;
+}
 #skills{
     height: 250px;
     background: #a52a2a6b;
 }
 #statistics{
     height: 225px;
-    background: #b8860b70;
 }
 #statistics .f-container{
     display: flex;
@@ -62,7 +124,6 @@ body{
 }
 #clients{
     height: 165px;
-    background: #ff8c00bf;
 }
 #clients .f-container{
     display:flex;
@@ -78,7 +139,6 @@ body{
 }
 #service{
     height: 934px;
-    background: #ff00ff5e;
 }
 #service .section-title{
     height: 218px;
@@ -108,7 +168,6 @@ body{
 }
 #team{
     height: 667px;
-    background: #ff63478c;
 }
 #team .section-title{
     height: 237px;
@@ -126,7 +185,6 @@ body{
 }
 #pricing{
     height: 716px;
-    background: #ff00ff73;
 }
 #pricing .section-title{
     height: 237px;
@@ -143,23 +201,39 @@ body{
     flex-basis: 10%;
 }
 #faq{
-    height: 660px;
+    height: 718px;
     background: #0000808c;
 }
 #faq .section-title{
     height: 246px;
 }
 #contact{
-    height: 879px;
+    height: 873px;
     background: #a0522d85;
+}
+#contact .section-title{
+    height: 183px;
+}
+#contact .f-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+#contact .f-item{
+    text-align: center;
+   
+}
+#contact .f-item.size-a{
+    flex-basis:50% ;
+}
+#contact .f-item.size-b{
+    flex-basis: 25%;
 }
 #newsletter{
     height: 240px;
     background: #9acd327d;
 }
 #footer{
-    height: 340px;
-    background: #7b858085;
+    height: 288px;
 }
 #footer .f-container{
     display: flex;
@@ -176,7 +250,13 @@ body{
     height: 77px;
     background: #a52a2a85;
 }
+#legals .f-container{
+    display: flex;
+    justify-content: space-between;
+}
+#legals .f-item{
 
+}
 
 
 
