@@ -17,8 +17,42 @@ color: white;
 text-decoration: none;
 }
 .secondary-btn{
-color: black;
+color:black;
 text-decoration: none;
+}
+.secondary-btn i{
+    font-size: 32px;
+    color: #106eea;
+    position: relative;
+    top: 5px;
+}
+.section-title{
+    text-align: center;
+}
+.section-title h4{
+    padding: 14px;
+    padding-bottom: 22px;
+}
+.section-title h4 span{
+    background: #d3e5fb;
+    border-radius: 8px;
+    padding: 6px 17px;
+    display: inline-block;
+    color: #106eea;
+    font-size: 14px;
+    font-weight: 600;
+}
+.section-title h2{
+    font-size: 29px;
+    padding-bottom: 24px;
+}
+.section-title h2 span{
+    color: #106eea;
+}
+.section-title p{
+    max-width: 587px;
+    margin: auto;
+    line-height: 20px;
 }
 #quick-links{
     height: 40px;
@@ -91,10 +125,9 @@ text-decoration: none;
 }
 #about{
     height: 815px;
-    background: #00ffff61;
+    background-color: aliceblue;
 }
 #about .section-title{
-    text-align: center;
     height: 186px;
 }
 #about .f-container{
@@ -123,7 +156,7 @@ text-decoration: none;
     padding: 42px;
 }
 #clients{
-    height: 165px;
+    height: 154px;
 }
 #clients .f-container{
     display:flex;
@@ -139,6 +172,7 @@ text-decoration: none;
 }
 #service{
     height: 934px;
+    background-color: aliceblue;
 }
 #service .section-title{
     height: 218px;
@@ -163,11 +197,12 @@ text-decoration: none;
     background: #661a9280;
 }
 #portfolio{
-    height: 1437px;
+    height: 1497px;
     background: #87ceeb80;
 }
 #team{
     height: 667px;
+    background-color: aliceblue;
 }
 #team .section-title{
     height: 237px;
@@ -185,6 +220,7 @@ text-decoration: none;
 }
 #pricing{
     height: 716px;
+    background-color: aliceblue;
 }
 #pricing .section-title{
     height: 237px;
@@ -201,15 +237,15 @@ text-decoration: none;
     flex-basis: 10%;
 }
 #faq{
-    height: 718px;
-    background: #0000808c;
+    height: 659px;
+    background-color: aliceblue;
 }
 #faq .section-title{
     height: 246px;
 }
 #contact{
     height: 873px;
-    background: #a0522d85;
+    background-color: aliceblue;
 }
 #contact .section-title{
     height: 183px;
