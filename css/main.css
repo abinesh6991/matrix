@@ -116,12 +116,15 @@ text-decoration: none;
    justify-content: space-around;
 }
 #highlights .f-item{
-    flex-basis: 9%;
-    padding: 65px;
+    margin-top: 13px;
+    flex-basis: 11%;
+    padding: 58px;
     background-color: #ffff;
-    box-shadow: #13131294 0 0 15px;
     border-radius: 8px;
-
+}
+#highlights .f-item i{
+    font-size: 45px;
+    color:#106eea;
 }
 #about{
     height: 815px;
@@ -185,12 +188,17 @@ text-decoration: none;
 
 }
 #service .f-item{
-    flex-basis: 15%;
-    padding: 100px;
+    flex-basis: 13%;
+    margin-bottom: 38px;
+    padding: 90px;
     background-color: #ffff;
-    box-shadow: rgb(36, 24, 24)  0 0 15px;
+    box-shadow: rgb(36, 24, 24) 0 0 15px;
     border-radius: 8px;
-
+    text-align: center;
+}
+#service .f-item i{
+    font-size: 20px;
+     color: #106eea;
 }
 #testimonial{
     height: 434px;
