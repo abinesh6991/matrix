@@ -5,7 +5,7 @@ body{
 }
 /*common styles*/
 .container{
-    width:1110px;
+    width:1140px;
     margin: 0 auto;
 }
 .primary-btn{
@@ -28,6 +28,7 @@ text-decoration: none;
 }
 .section-title{
     text-align: center;
+    padding-bottom: 30px;
 }
 .section-title h4{
     padding: 14px;
@@ -56,18 +57,50 @@ text-decoration: none;
 }
 #quick-links{
     height: 40px;
-    background: #ff000047;
+    background: #106eea;
 }
 #quick-links .f-container{
     display: flex;
     justify-content: space-between;
 }
 #quick-links .f-item{
-
+    font-size: 14.5px;
+    padding: 14px 15px;
+    color: #e6f0fd;
+}
+#quick-links .f-item.a i{
+    font-size: 14px;
+    letter-spacing: 4px;
+}
+#quick-links .icofont-ui-call{
+    padding-left: 13px; 
+}
+#quick-links .f-item.b{
+    margin: 0px -18px;
+}
+#quick-links .f-item.b i{
+    letter-spacing: 18px;
 }
 #header{
     height: 93px;
-    background: #0000ff54;
+    background-color: #fff;
+}
+#header .f-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 16px;
+}
+#header .f-item h1{
+    font-size: 32px;
+}
+#header .f-item h1 span{
+    color: #106eea;
+}
+#header .f-item h4{
+    display: inline-block;
+    font-size: 14px;
+    padding-top: 10px;
+
 }
 #banner{
     height: 390px;
@@ -108,36 +141,67 @@ text-decoration: none;
 
 }
 #highlights{
-    height: 367px;
-    padding: 48px 0 0 0;
+    height: 366px;
 }
 #highlights  .f-container{
     display: flex;
    justify-content: space-around;
+   padding: 60px 0;
 }
 #highlights .f-item{
-    margin-top: 13px;
-    flex-basis: 11%;
-    padding: 58px;
+    margin: 0 13px;
+    flex-basis: 20%;
+    padding: 45px;
     background-color: #ffff;
     border-radius: 8px;
+    box-shadow: 0 0 1px grey;
 }
 #highlights .f-item i{
-    font-size: 45px;
+    margin-bottom: 10px;
+    font-size: 40px;
     color:#106eea;
 }
+#highlights .f-item h4{
+    padding: 10px 0px;
+    display: block;
+    font-size: 16px;
+}
+#highlights .f-item p{
+    font-size: 15px;
+    line-height: 28px;
+}
 #about{
-    height: 815px;
-    background-color: aliceblue;
+    height: 694.13px;
+    background-color: #f6f9fe;
+    padding: 60px 0;
 }
 #about .section-title{
-    height: 186px;
+   
 }
 #about .f-container{
     display: flex;
 }
 #about .f-item{
     flex-basis: 50%;
+}
+#about .f-item h4{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 1.2;
+    margin: 0 0 8px;
+}
+#about .f-item h5{
+    font-size: 18px;
+    margin: 0 0 8px;
+}
+#about .f-item p{
+    font-size: 15px;
+}
+#about .f-item .italic{
+    font-style: italic;
+    font-size: 16px;
+    line-height: 1.2;
+    margin: 0 0 16px;
 }
 #skills{
     height: 250px;
@@ -301,7 +365,6 @@ text-decoration: none;
 #legals .f-item{
 
 }
-
 
 
 
