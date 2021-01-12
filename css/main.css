@@ -31,8 +31,7 @@ text-decoration: none;
     padding-bottom: 30px;
 }
 .section-title h4{
-    padding: 14px;
-    padding-bottom: 22px;
+    padding: 0px 0px 15px;
 }
 .section-title h4 span{
     background: #d3e5fb;
@@ -44,16 +43,17 @@ text-decoration: none;
     font-weight: 600;
 }
 .section-title h2{
-    font-size: 29px;
-    padding-bottom: 24px;
+    font-size: 32px;
+    padding: 0 0 15px
 }
 .section-title h2 span{
     color: #106eea;
 }
 .section-title p{
-    max-width: 587px;
-    margin: auto;
-    line-height: 20px;
+    width: 50%;
+    margin: 0 auto 0 auto;
+    font-weight: 600;
+    line-height: 1.5;
 }
 #quick-links{
     height: 40px;
@@ -183,6 +183,11 @@ text-decoration: none;
 }
 #about .f-item{
     flex-basis: 50%;
+    padding: 0 15px;
+}
+#about .f-item img{
+    max-width: 100%;
+    height: auto;
 }
 #about .f-item h4{
     font-weight: 600;
@@ -191,24 +196,34 @@ text-decoration: none;
     margin: 0 0 8px;
 }
 #about .f-item h5{
+    display: inline-block;
     font-size: 18px;
     margin: 0 0 8px;
+    padding: 0 13px
+}
+#about .f-item i{
+    font-size: 35px;
+    color: #106eea;
 }
 #about .f-item p{
     font-size: 15px;
+    line-height: 20px;  
+}
+#about .f-item p.space{
+    padding: 0px 50px 35px;
 }
 #about .f-item .italic{
     font-style: italic;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.2;
-    margin: 0 0 16px;
+    margin: 0 0 30px;
 }
 #skills{
-    height: 250px;
+    height: 270px;
     background: #a52a2a6b;
 }
 #statistics{
-    height: 225px;
+    height: 260px;
 }
 #statistics .f-container{
     display: flex;
@@ -223,12 +238,12 @@ text-decoration: none;
     padding: 42px;
 }
 #clients{
-    height: 154px;
+    height: 99.41px;
 }
 #clients .f-container{
     display:flex;
     justify-content: space-around;
-    padding-top: 50px;
+    padding: 24px 0;
 }
 #clients .f-item{
     flex-basis: 100px;
@@ -238,38 +253,48 @@ text-decoration: none;
     padding: 16px;
 }
 #service{
-    height: 934px;
     background-color: aliceblue;
+    padding: 60px 0;
 }
 #service .section-title{
-    height: 218px;
+
 }
 
 #service .f-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-
+    padding: 0px 0px;
 }
 #service .f-item{
-    flex-basis: 13%;
-    margin-bottom: 38px;
-    padding: 90px;
+    flex-basis: 27%;
+    padding: 90px 20px;
     background-color: #ffff;
-    box-shadow: rgb(36, 24, 24) 0 0 15px;
+    box-shadow: rgb(36, 24, 24) 0 0 1px;
     border-radius: 8px;
     text-align: center;
+    margin: 30px 0px;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
 }
 #service .f-item i{
-    font-size: 20px;
-     color: #106eea;
+    font-size: 30px;
+    color: #106eea;
+    display: block;
+    padding: 0 0 20px;
+}
+#service .f-item h4.serve{
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px
 }
 #testimonial{
     height: 434px;
     background: #661a9280;
 }
 #portfolio{
-    height: 1497px;
+    height: 1410px;
     background: #87ceeb80;
 }
 #team{
@@ -309,15 +334,25 @@ text-decoration: none;
     flex-basis: 10%;
 }
 #faq{
-    height: 659px;
-    background-color: aliceblue;
+    height: 475px;
+    background-color: #f6f9fe;
+    padding: 60px 0;
+}
+#faq .section-content ul{
+
+}
+#faq .section-content li{
+    padding: 0 0 20px 25px;
+    font-size: 18px;
+    font-weight: 500;
 }
 #faq .section-title{
-    height: 246px;
+
 }
 #contact{
-    height: 873px;
+    height: 761px;
     background-color: aliceblue;
+    padding: 60px 0;
 }
 #contact .section-title{
     height: 183px;
@@ -331,10 +366,22 @@ text-decoration: none;
    
 }
 #contact .f-item.size-a{
-    flex-basis:50% ;
+    flex-basis:45%;
 }
 #contact .f-item.size-b{
     flex-basis: 25%;
+}
+#contact form .form-element{
+
+}
+#contact form .form-subject{
+
+}
+#contact form .form-message{
+
+}
+#contact form .submit{
+
 }
 #newsletter{
     height: 240px;
