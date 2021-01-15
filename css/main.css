@@ -1,7 +1,5 @@
 body{
     font-family: 'Poppins','Roboto', Arial, Helvetica, sans-serif;
-    background-image: url(../images/screenshot.png);
-    height: 8777px;
 }
 /*common styles*/
 .container{
@@ -62,7 +60,6 @@ h1 h2 h3 h4 h5 h6{
     line-height: 1.5;
 }
 #quick-links{
-    height: 40px;
     background: #106eea;
 }
 #quick-links .f-container{
@@ -88,7 +85,6 @@ h1 h2 h3 h4 h5 h6{
     letter-spacing: 18px;
 }
 #header{
-    height: 93px;
     background-color: #fff;
 }
 #header .f-container{
@@ -109,7 +105,6 @@ h1 h2 h3 h4 h5 h6{
 
 }
 #banner{
-    height: 390px;
     background-image:url(../images/hero-bg.jpg);
     background-size:cover;
     position: relative;
@@ -147,7 +142,6 @@ h1 h2 h3 h4 h5 h6{
 
 }
 #highlights{
-    height: 366px;
 }
 #highlights  .f-container{
     display: flex;
@@ -177,7 +171,6 @@ h1 h2 h3 h4 h5 h6{
     line-height: 28px;
 }
 #about{
-    height: 694.13px;
     background-color: #f6f9fe;
     padding: 60px 0;
 }
@@ -225,11 +218,9 @@ h1 h2 h3 h4 h5 h6{
     margin: 0 0 30px;
 }
 #skills{
-    height: 270px;
     background: #a52a2a6b;
 }
 #statistics{
-    height: 260px;
 }
 #statistics .f-container{
     display: flex;
@@ -244,7 +235,7 @@ h1 h2 h3 h4 h5 h6{
     padding: 42px;
 }
 #clients{
-    height: 99.41px;
+
 }
 #clients .f-container{
     display:flex;
@@ -296,15 +287,12 @@ h1 h2 h3 h4 h5 h6{
     font-size: 24px
 }
 #testimonial{
-    height: 434px;
     background: #661a9280;
 }
 #portfolio{
-    height: 1410px;
     background: #87ceeb80;
 }
 #team{
-    height: 667px;
     background-color: aliceblue;
 }
 #team .section-title{
@@ -322,11 +310,9 @@ h1 h2 h3 h4 h5 h6{
     border-radius: 8px;
 }
 #pricing{
-    height: 716px;
     background-color: aliceblue;
 }
 #pricing .section-title{
-    height: 237px;
 }
 #pricing .f-container{
     display: flex;
@@ -340,7 +326,6 @@ h1 h2 h3 h4 h5 h6{
     flex-basis: 10%;
 }
 #faq{
-    height: 475px;
     background-color: #f6f9fe;
     padding: 60px 0;
 }
@@ -356,12 +341,10 @@ h1 h2 h3 h4 h5 h6{
 
 }
 #contact{
-    height: 795px;
     background-color: aliceblue;
     padding: 60px 0;
 }
 #contact .section-title{
-    height: 183px;
 }
 #contact .f-container{
     display: flex;
@@ -482,7 +465,6 @@ h1 h2 h3 h4 h5 h6{
     font-size: 17px;
 }
 #newsletter{
-    height: 135px;
     padding: 50px 0;
     background: #f1f6fe;
 }
@@ -512,7 +494,6 @@ h1 h2 h3 h4 h5 h6{
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 #footer{
-    height: 288px;
     padding: 60px 0 30px 0;
     background: #fff;
 }
@@ -575,17 +556,27 @@ h1 h2 h3 h4 h5 h6{
     height: 18px;
 }
 #legals{
-    height: 77px;
-    color: blue;
     background-color: #fff;
 }
 #legals .f-container{
     display: flex;
     justify-content: space-between;
+    padding: 24px 15px;
 }
-#legals .f-item{
+#legals .f-itemc{
+    color: #444444;
+    font-size: 14px;
+}
+#legals .f-itemd{
+    font-size: 13px;
+    color: #444444;
+}
+#legals .f-itemc strong{
+    font-weight: bolder;
+}
+#legals .f-itemd{
+}
 
-}
 
 
 
